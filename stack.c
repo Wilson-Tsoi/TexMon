@@ -1,7 +1,9 @@
 #include "mylib.h"
 char *stack;
-
-memcpy(stack, 0, 1000 * sizeof(char));
+int num;
+int number = 0, odd;
+size_t size = 100 * sizeof(int);
+memset(num, number, size);
 stack = (char *)malloc(1000 * sizeof(char));
 
 //stack = "getline\n";

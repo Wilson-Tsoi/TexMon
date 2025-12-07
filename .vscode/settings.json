@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "mylib.h": "c",
+        "crtdefs.h": "c",
+        "stdarg.h": "c"
+    }
+}
